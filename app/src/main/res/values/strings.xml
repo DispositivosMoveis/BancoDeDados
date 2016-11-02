@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BancoDeDados</string>
+    <string name="editarAlterar">Alterar</string>
+    <string name="principalInserir">Inserir</string>
+    <string name="principalListar">Listar</string>
+    <string name="editarExcluir">Excluir</string>
+    <string name="codigo">CODIGO</string>
+    <string name="nome">NOME</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="nome_da_pessoa">Nome da Pessoa</string>
+    <string name="editarVoltar">Voltar</string>
+    <string name="listarVoltar">Voltar</string>
+</resources>
