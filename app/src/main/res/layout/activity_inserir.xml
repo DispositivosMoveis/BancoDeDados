@@ -12,10 +12,10 @@
     android:orientation="vertical">
 
     <TextView
-        android:text="Nome"
+        android:id="@+id/nomeTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/nomeTextView" />
+        android:text="@string/nome" />
 
     <EditText
         android:layout_width="match_parent"

@@ -97,7 +97,8 @@ public class PessoasDAO {
     public void apagarById(long id){
         String where ="_id ="+id;
         db = criaBanco.getReadableDatabase();
-        db.delete("pessoa",where,null);
+        db.delete("pessoa",where,
+                null);
         db.close();
     }
 
@@ -110,7 +111,7 @@ public class PessoasDAO {
         valores = new ContentValues();
         valores.put("nome",nome);
         String where = " _id ="+id;
-        long res = db.update("pessoa", valores, where, null);
+        long res = db.update("pessoa",valores, where, null);
         db.close();
         if (res == -1){
             return "Não foi possível atualizar";
