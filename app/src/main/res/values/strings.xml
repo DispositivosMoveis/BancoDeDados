@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BancoDeDados</string>
+    <string name="app_name">Listagem</string>
     <string name="editarAlterar">Alterar</string>
     <string name="principalInserir">Inserir</string>
     <string name="principalListar">Listar</string>
